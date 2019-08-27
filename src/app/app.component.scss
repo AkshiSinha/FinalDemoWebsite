@@ -1,0 +1,87 @@
+// .expand {
+//     height: 1em;
+//     width: 50%;
+//     padding: 3px;
+// }
+
+textarea {
+    height: 1em;
+    width: 50%;
+    padding: 3px;
+    transition: all 0.5s ease;
+}
+
+textarea:focus {
+    height: 4em;
+}
+
+
+table{
+    border: 1px solid #ddd;
+}
+
+div.a{
+   
+    width: 200px;
+    
+    
+    // overflow: hidden;
+   
+        white-space: pre;
+         
+        overflow: hidden;
+        
+        
+        text-overflow:ellipsis;
+    
+   
+    
+    -webkit-transition: max-height 1.5s cubic-bezier(0, 1.05, 0, 1);
+    -moz-transition: max-height 1.5s cubic-bezier(0, 1.05, 0, 1);
+    transition: max-height 1.5s ease cubic-bezier(0, 1.05, 0, 1);
+		
+    max-height: 20px;
+}
+
+div.a:hover{
+    -webkit-transition: max-height 2s ease;
+    -moz-transition: max-height 2s ease;
+    transition: max-height 2s ease;
+    white-space: pre;
+    overflow-wrap:inherit;
+    text-overflow:unset;
+    height: 5em;
+    //display: inline;
+    //     width: 50%;
+    max-height: 400px;
+   // overflow: visible;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+//   .a {
+//     white-space: nowrap;
+//     overflow: hidden;
+//   }
+//   .a span {
+//     display: inline-block;
+//     width: 100%;
+//   }
+//   .a span span {
+//     transition: left 4s linear;
+//     position: relative;
+//     overflow: hidden;
+//     text-overflow: ellipsis;
+//     white-space: nowrap; 
+//     left: 0px;
+
+   
+//   }
+//   .a:hover span {
+//     width:300px;
+// height: 60px;}
